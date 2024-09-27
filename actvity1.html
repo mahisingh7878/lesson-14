@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"conttent="width=device-width,initial-scale=1.0">
+        <title> actvity 1</title>
+    </head>
+    <body>
+        <h2>json in js</h2>
+        <p id="p1"></p>
+        <script>
+            var obj={name:"mahi",garde:8,age:12};
+            var jsonobj=JSON.stringify(obj);
+            var myjob=JSON.parse(JSONobj);
+            document.getElementById("p1").innerHTML="name received is"+myjob.name+"with grade"+myjob.grade+"of age"+myjob.age;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conttent="width=device-width,initial-scale=1.0">
+    <title>actvity2</title>
+    </head>
+    <body>
+        <h2>JSON IN JS</h2>
+        <p id="p1"></p>
+        <script>
+            async function add(a,b){
+                var sum=await a+b;
+                display(sum);
+
+            }
+                function display(some){
+                    document.getElementById("p1").innerHTML=some;
+                }
+                add(9,124)
+        </script>
+    </body>
+    </html>
